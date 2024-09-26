@@ -15,7 +15,7 @@ def converter_moeda():
     moeda_destino = campo_moeda_destino.get()
     if moeda_origem and moeda_destino:
         cotacao = pegar_cotacao_moeda(moeda_origem, moeda_destino)
-        texto_da_cotacao_moeda.configure(text=f"1{moeda_origem} = {cotacao} {moeda_destino}")
+        texto_da_cotacao_moeda.configure(text=f"1 {moeda_origem} = {cotacao} {moeda_destino}")
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 
